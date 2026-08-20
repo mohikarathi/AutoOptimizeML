@@ -1,0 +1,28 @@
+# Build and compiled binaries
+build/
+*.so
+*.o
+*.a
+*.dylib
+*.egg-info/
+dist/
+*.whl
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local run artifacts & caches
+.autoopt_runs/
+*.log
+uploads/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
